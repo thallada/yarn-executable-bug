@@ -1,0 +1,17 @@
+{
+  "name": "yarn-executable-bug",
+  "version": "1.0.0",
+  "description": "testing possible yarn 1.15.2 bug with workspaces",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "workspace-1"
+    ],
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "workspace-1",
+  "version": "1.0.0",
+  "description": "testing possible yarn 1.15.2 bug with workspaces",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react-native": "^0.59.1"
+  }
+}
